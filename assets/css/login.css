@@ -1,0 +1,31 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+html,body{
+  height: 100vh;
+  background-image: url(/assets/images/login_bg.jpg);
+  background-size: cover;
+  /* text-align: center;
+  line-height: 60px; */
+}
+
+
+.login-reg-box{
+  width: 400px;
+  height: 320px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+  background-color: #fff;
+  border-radius: 3px;
+}
+
+.login-reg-box h4{
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+}
